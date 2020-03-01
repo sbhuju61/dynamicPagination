@@ -1,5 +1,3 @@
-
-
 let personArray = [{"id":1,"first_name":"Toby","last_name":"Deason","email":"tdeason0@bigcartel.com"},
 {"id":2,"first_name":"Josefina","last_name":"Faragan","email":"jfaragan1@si.edu"},
 {"id":3,"first_name":"Bink","last_name":"Sprott","email":"bsprott2@drupal.org"},
@@ -28,8 +26,8 @@ let personArray = [{"id":1,"first_name":"Toby","last_name":"Deason","email":"tde
 {"id":26,"first_name":"Aleen","last_name":"Kelling","email":"akellingp@sohu.com"},
 {"id":27,"first_name":"Wilhelmine","last_name":"Buggs","email":"wbuggsq@indiatimes.com"},
 {"id":28,"first_name":"Josy","last_name":"Boutell","email":"jboutellr@flavors.me"},
-//{"id":29,"first_name":"Massimiliano","last_name":"Josebury","email":"mjoseburys@hhs.gov"},
-//{"id":30,"first_name":"Sal","last_name":"Padillo","email":"spadillot@360.cn"}
+{"id":29,"first_name":"Massimiliano","last_name":"Josebury","email":"mjoseburys@hhs.gov"},
+{"id":30,"first_name":"Sal","last_name":"Padillo","email":"spadillot@360.cn"}
 ];
 
 const table = document.getElementById("bookTable").getElementsByTagName("tbody")[0];
