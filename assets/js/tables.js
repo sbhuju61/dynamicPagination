@@ -1,6 +1,5 @@
 
 
-let currentPage = 0;
 let personArray = [{"id":1,"first_name":"Toby","last_name":"Deason","email":"tdeason0@bigcartel.com"},
 {"id":2,"first_name":"Josefina","last_name":"Faragan","email":"jfaragan1@si.edu"},
 {"id":3,"first_name":"Bink","last_name":"Sprott","email":"bsprott2@drupal.org"},
