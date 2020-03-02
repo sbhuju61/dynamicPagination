@@ -10,9 +10,6 @@ let currentPage = 1;
 
 const updatePagination = currentPage => {
   const allRows = table.rows;
-  //totalrow;
-  const totalRow = allRows.length;
-  //console.log("totalRow "+ totalRow);
 
   if (currentPage < 1) {
     currentPage = 1;
@@ -21,10 +18,11 @@ const updatePagination = currentPage => {
   if (currentPage > pagesNeeded) {
     currentPage = pagesNeeded;
   }
+
   let startIndex = (currentPage - 1) * itemPerPage + 1;
   let endIndex = startIndex + itemPerPage - 1;
-  console.log("startIndex " + startIndex);
-  console.log("endIndex " + endIndex);
+  //console.log("startIndex " + startIndex);
+  //console.log("endIndex " + endIndex);
 
   for (let i = 0; i < allRows.length; i++) {
     if (i >= startIndex - 1 && i < endIndex) {
